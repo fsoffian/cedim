@@ -267,7 +267,7 @@ section.espec{
     height: 200px;
 }
 .uno{
-    background-image: url(./img/ioma.PNG);
+    background-image: url(./img/ioma.png);
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ section.espec{
 
 }
 .tres{
-    background-image: url(./img/bapro.PNG);
+    background-image: url(./img/bapro.png);
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -284,7 +284,7 @@ section.espec{
 
 }
 .dos, .cuatro{
-    background-image: url(./img/osmecon.PNG);
+    background-image: url(./img/osmecon.png);
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -332,9 +332,6 @@ footer{
     align-items: center;
     text-align: center;
 }
-
-
-
 
 footer a{
     margin: 0 5px;
@@ -556,16 +553,10 @@ a.onpag:hover{
     main>.contactanos{
         align-content: space-around;
     }
-    /* ESTO DE ABAJO SE TIENE QUE PULIRRRRRR
-    RRRRRRRRRR
-    RRRRRRRRRRR
-    RRRRRRR */
+
     .contactanos{
 
         max-width: 100vw;
-        justify-self: left;
-        align-self: stretch;
-        text-align: center;
     }
     
     form{
@@ -573,6 +564,7 @@ a.onpag:hover{
     }
     .formulario{
         margin-bottom: 5px;
+        width: 290px;
     }
     .formulario label{
         display: grid;
@@ -580,7 +572,7 @@ a.onpag:hover{
         margin-bottom: 3px;
     }
     .formulario input, textarea{
-        width: 290px;
+        
         max-width: 95vw;
         padding: 10px;
         font-size: 14px;
@@ -605,8 +597,7 @@ a.onpag:hover{
     button.form{
         padding: 5px 20px;
         font-size: 24px;
-        background: #0000001c;
-        color: #fff;
+
     }
     
 
