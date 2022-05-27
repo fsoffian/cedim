@@ -267,7 +267,7 @@ section.espec{
     height: 200px;
 }
 .uno{
-    background-image: url(../img/ioma.png);
+    background-image: url("../img/ioma.png");
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ section.espec{
 
 }
 .tres{
-    background-image: url(../img/bapro.png);
+    background-image: url("./img/bapro.png");
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -284,7 +284,7 @@ section.espec{
 
 }
 .dos, .cuatro{
-    background-image: url(../img/osmecon.png);
+    background-image: url("/img/osmecon.png");
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -310,7 +310,7 @@ section.espec{
 
 
 aside{
-    background-image: url(../img/consultorio1.JPG);
+    background-image: url("../img/consultorio1.JPG");
     background-size:cover;
     background-position:30%;
     opacity: 0.7;
