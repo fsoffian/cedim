@@ -1,5 +1,7 @@
-const buttons = document.querySelectorAll("[data-carrousel-button]")
-
+const buttons = document.querySelectorAll("[data-carrousel-button]");
+const flechitaDer = document.querySelector('.carrousel-button.next');
+const flechitaIzq = document.querySelector('.carrousel-button.prev');
+/* const repTexto = document.querySelector */
 buttons.forEach(button=> {
     button.addEventListener("click", () => {
         const offset = button.dataset.carrouselButton === "next" ? 1 : -1
@@ -16,3 +18,13 @@ buttons.forEach(button=> {
         delete activeSlide.dataset.active
     })
 })
+
+
+
+
+if (window.innerWidth < 450) {
+    flechitaDer.innerText = '>';
+    flechitaIzq.innerText = '<';
+}
+
+
