@@ -389,7 +389,7 @@ a.onpag:hover{
     position: absolute;
     display: block;
     z-index: 1;
-    top: 50px;
+    top: 30px;
     left: 30px;
     right: 30px;
 
@@ -408,7 +408,7 @@ a.onpag:hover{
     right: 10px;
 }
 .slide>.texto h3{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .slide[data-active]{
