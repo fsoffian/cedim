@@ -514,6 +514,37 @@ a.noformat{
         display: grid;
         grid-template-columns: auto auto;
     }
+    /* PULIR, FORMULARIO */
+
+
+    .contactanos{
+
+        max-width: 100vw;
+        font-size: 18px;
+    }
+    
+
+    .formulario{
+
+        width: 63vw;
+
+    }
+
+    .formulario input, textarea{
+
+        
+        max-width: 55vw;
+        padding: 10px;
+
+
+
+    }
+    textarea{
+        width:66vw;
+        max-width: 95vw;
+    }
+
+
  }
 @media(max-width:450px){
 
@@ -596,6 +627,7 @@ a.noformat{
         margin-bottom: 3px;
     }
     .formulario input, textarea{
+        width: 95vw;
         
         max-width: 95vw;
         padding: 10px;
@@ -605,6 +637,7 @@ a.noformat{
     }
     textarea{
         max-width: 95vw;
+        width: 95vw;
     }
     .hayerror{
         font-size: 14px;
@@ -628,6 +661,7 @@ a.noformat{
         top: 15px;
         left: 20px;
         right: 20px;
+        padding-left: 5px;
     
     
     }

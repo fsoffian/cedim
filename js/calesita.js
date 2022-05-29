@@ -40,7 +40,7 @@ if (isMobile){
 
 
   carrouselTodo.addEventListener('swiped', function(e) {
-    const offset = (e.detail.dir) === "swiped-right" ? 1 : -1;
+    const offset = (e.detail.dir) === "swiped-left" ? 1 : -1;
     const slides = carrouselTodo
         .closest("[data-carrousel]")
         .querySelector("[data-slides]")
