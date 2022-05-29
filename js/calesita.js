@@ -27,4 +27,10 @@ if (window.innerWidth < 450) {
     flechitaIzq.innerText = '<';
 }
 
-
+let isMobile = window.matchMedia("(pointer:coarse)").matches;
+if (isMobile){
+    console.log("Movil!")
+}
+else{
+    console.log("noMovil")
+}
