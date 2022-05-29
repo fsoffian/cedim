@@ -425,7 +425,7 @@ a.onpag:hover{
     border: none;
     font-size: 2rem;
     top: 50%;
-    /* Tranformación: mueve a la imagen */
+    /* Tranformación: mueve a la imagen, funcionamiento en calesita.js */
     transform: translateY(-50%);
     color: rgba(176, 176, 176, 0.7);
     cursor: pointer;
